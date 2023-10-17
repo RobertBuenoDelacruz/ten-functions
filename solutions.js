@@ -21,3 +21,44 @@
  * concat
  */
 
+// 1. isTrue
+function isTrue(input) {
+    return input === true;
+}
+// 2. isFalse
+function isFalse(input) {
+    return input === false;
+}
+// 3. not
+function not(input) {
+    return !input;
+}
+// 4. addOne
+function addOne(input) {
+    return ++input;
+}
+// 5. isEven
+function isEven(input){
+    let num = parseInt(input)
+    return num % 2 === 0;
+}
+// 6. isIdentical
+function isIdentical(inputOne, inputTwo) {
+    return inputOne === inputTwo
+}
+// 7. isEqual
+function isEqual(inputOne, inputTwo) {
+    return inputOne == inputTwo
+}
+// 8. or
+function or(inputOne, inputTwo) {
+    return inputOne || inputTwo
+}
+// 9. and
+function and(inputOne, inputTwo) {
+    return inputOne && inputTwo
+}
+// 10. concat
+function concat(inputOne, inputTwo) {
+    return (inputOne.toString() + inputTwo.toString())
+}
